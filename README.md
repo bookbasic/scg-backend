@@ -1,4 +1,5 @@
 ## Backend Config File
+```bash
 .env
 MAIL_HOST= smtp server ex: smtp.gmail.com
 MAIL_USER= mail sender ex: book2546@gmail.com
@@ -8,7 +9,7 @@ MONGO_DB= mongbdb connection string ex: mongodb+srv://root:1234@cluster0.n0eqx.g
 
 src/main.ts
 app.listen(8081);
-
+```
 ## Running the app
 
 ```bash
